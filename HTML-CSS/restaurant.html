@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="restaurant.css" />
+  <head>
+    <style></style>
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <script src="https://media-cdn.tripadvisor.com/media/photo-s/26/52/b5/4d/healesville-hotel.jpg"></script>
+    <script>
+      $(function () {
+        var image = $(".mainmenu").find("img").attr("src");
+        $(".mainmenu a").mouseover(function () {
+          var newimg = $(this).attr("data-image");
+          $(this).parent().find("img").attr("src", newimg);
+        });
+      });
+    </script>
+    <div class="box">
+      <div class="mainmenu">
+        <img
+          src="https://media.blogto.com/listings/20220613-bawara-1.jpg?cmd=resize_then_crop&h=480&quality=70&w=720"
+          alt=""
+        />
+        <div class="menu">
+          <a href="">Home</a>
+          <a href="">Menu</a>
+          <a href="">FAQ</a>
+          <a href="">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wd">
+      <h1 class="Delicious">Welcome to delicoUS</h1>
+      <h4>
+        <i
+          >Order delicious food online, <br />
+          100% quality, <br />
+          safety and taste assured.</i
+        >
+      </h4>
+      <h2>
+        Call 9199191991 for reservations <br /><br />for online reservations
+        <a href="https://google.com/delicious">Delicious</a>
+      </h2>
+      <div class="opt">
+        <form action="" method="post">
+          <input type="button" value="ORDER NOW" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
