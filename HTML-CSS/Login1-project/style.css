@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: auto;
+  background-image: url(https://cdn.pixabay.com/photo/2022/12/02/03/42/sky-7630197_960_720.png);
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1{
+  text-align: center ;
+  font-size: 80px;
+}
+
+form {
+  border-radius: 1cm;
+  border-width: auto;
+  background: linear-gradient(90deg, #25b3db 0%, #92fe9d 100%);
+  text-align: center;
+  padding: 100px;
+  width: 800px;
+  margin: 10px auto;
+
+
+}
+
+label {
+  font-size:fit-content;
+  font-weight: 1000;
+  text-transform: uppercase;
+  display: inline-block;
+
+  height: 40px;
+  margin: 15px;
+  text-align: left;
+  width: 200px;
+}
+
+input {
+  border:2px solid gray;
+  border-radius: 6px;
+  border-width: 100%;
+  border-color: antiquewhite
+  width: 100px;
+  height: 40px;
+}
+
+#save{
+  text-transform: uppercase;
+  background-color: #dda0dd;
+  color: white;
+  padding: 10px;
+  width: 100px;
+}
+#save:hover{
+  background-color: rgb(160, 25, 201);
+  color: aquamarine;
+}
+#clear{
+  text-transform: uppercase;
+  background-color: #dda0dd;
+  color: white;
+  padding: 10px;
+  width: 100px;
+}
+#clear:hover{
+  background-color: yellow;
+  color: aquamarine;
+} 
+}
